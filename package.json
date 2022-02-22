@@ -7,7 +7,7 @@
         "socket.io": "^4.1.2"
     },
     "scripts": {
-        "start": "node index.js",
-        "nodemon": "nodemon index.js"
+        "start": "sudo node index.js",
+        "nodemon": "sudo nodemon index.js"
     }
 }
