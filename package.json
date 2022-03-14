@@ -9,7 +9,8 @@
         "websocket": "^1.0.34"
     },
     "scripts": {
-        "start": "node server.js chat-eagle.herokuapp.com 3000"
+        "start": "node server.js chat-eagle.herokuapp.com 3000",
+        "start1": "node server.js localhost 4000"
     },
     "main": "index.js",
     "repository": "https://github.com/Eng-Khaled-Alhadi/chat-example.git",
