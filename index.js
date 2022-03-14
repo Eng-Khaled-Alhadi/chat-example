@@ -35,6 +35,8 @@ io.attachApp(app);
 
 io.on("connection", (socket) => {
   // ...
+  console.warn(socket);
+  
 });
 
 app.listen(3000, (token) => {
