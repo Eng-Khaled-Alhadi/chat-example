@@ -9,7 +9,7 @@
         "websocket": "^1.0.34"
     },
     "scripts": {
-        "start": "node server.js"
+        "start": "node server.js localhost 3000 "
     },
     "main": "index.js",
     "repository": "https://github.com/Eng-Khaled-Alhadi/chat-example.git",
