@@ -3,7 +3,7 @@ const http = require('http').Server(app);
 const io = require('socket.io')(http);
 const port = process.env.PORT || 3000;
 
-app.get('/chat', (req, res) => {
+app.get('/', (req, res) => {
     console.log("1")
     res.sendFile(__dirname + '/index.html');
 });
