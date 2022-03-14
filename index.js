@@ -24,12 +24,12 @@
 
 
 
+// const ex = require('express')();
+const app  = require("uWebSockets.js")();
+const io = require("socket.io")();
 
-const { App } = require("uWebSockets.js");
-const { Server } = require("socket.io");
-
-const app = new App();
-const io = new Server();
+// const app = new App();
+// const io = new Server();
 
 io.attachApp(app);
 
